@@ -19,6 +19,12 @@ namespace WebApplicationDemo.Controllers
             return "Heelo";
         }
 
+
+        public string Change()
+        {
+            return "Heelo Changes";
+        }
+
         // GET: Hello/Details/5
         public ActionResult Details(int id)
         {
